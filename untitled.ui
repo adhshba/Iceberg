@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1041</width>
+    <height>738</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1041</width>
+    <height>738</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1041</width>
+    <height>738</height>
+   </size>
+  </property>
+  <property name="palette">
+   <palette>
+    <active>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </active>
+    <inactive>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </inactive>
+    <disabled>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </disabled>
+   </palette>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow {backgroun-image: url(main_page.jpg);}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="main_btn">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>200</y>
+      <width>221</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: rgb(5, 0, 52);
+	color: white; 
+	border: 1px solid black;
+	border-radius: 5px;
+	font: 75 8pt &quot;MS Shell Dlg 2&quot;;}
+
+:hover {color: #81A9EE}</string>
+    </property>
+    <property name="text">
+     <string>Найти медведя</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>images/bot_loc.png</normaloff>images/bot_loc.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>37</width>
+      <height>39</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="about_btn">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>340</y>
+      <width>221</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: #06003a;
+	color: white; 
+	border: 1px solid black;
+	border-radius: 5px;
+	font: 75 8pt &quot;MS Shell Dlg 2&quot;;}
+
+:hover {color: #81A9EE}</string>
+    </property>
+    <property name="text">
+     <string>     О проекте</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>images/but_about.png</normaloff>images/but_about.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>63</width>
+      <height>51</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="history_btn">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>260</y>
+      <width>221</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: #06003a;
+	color: white; 
+	border: 1px solid black;
+	border-radius: 5px;
+	font: 75 8pt &quot;MS Shell Dlg 2&quot;;}
+
+:hover {color: #81A9EE}</string>
+    </property>
+    <property name="text">
+     <string>      История</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>images/but_history.jpg</normaloff>images/but_history.jpg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>50</width>
+      <height>41</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="about_btn_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>400</y>
+      <width>221</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: #06003a;
+	color: white; 
+	border: 1px solid black;
+	border-radius: 5px;
+	font: 75 8pt &quot;MS Shell Dlg 2&quot;;}
+
+:hover {color: #81A9EE}</string>
+    </property>
+    <property name="text">
+     <string>          Помощь</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>images/help_but.jpg</normaloff>images/help_but.jpg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>60</width>
+      <height>44</height>
+     </size>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
